@@ -1,0 +1,4 @@
+replicaCount: 1
+serverImage: "rinkiyakedad/oktetodo-s3-server"
+clientImage: "rinkiyakedad/oktetodo-s3-client"
+dbImage: "postgres"

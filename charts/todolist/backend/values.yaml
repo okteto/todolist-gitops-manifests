@@ -1,3 +1,0 @@
-replicaCount: 1
-image: "rinkiyakedad/oktetodo-s3-server"
-bucket: 

@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: client
+  name: server
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      app: client
+      app: server
   template:
     metadata:
       labels:
-        app: client
+        app: server
     spec:
       containers:
-        - name: client
-          image: {{ .Values.image }}
+        - name: server
+          image: {{ .Values.serverImage }}
           ports:
-            - containerPort: 3000
+            - containerPort: 5050
