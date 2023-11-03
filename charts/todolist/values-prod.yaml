@@ -1,4 +1,4 @@
 replicaCount: 1
-serverImage: "rinkiyakedad/oktetodo-s3-server"
-clientImage: "rinkiyakedad/oktetodo-s3-client"
+serverImage: "rinkiyakedad/oktetodo-server"
+clientImage: "rinkiyakedad/oktetodo-client"
 dbImage: "postgres"
