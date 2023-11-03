@@ -1,0 +1,21 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: 'todolist-prod'
+spec:
+  destination:
+    name: 'in-cluster'
+    namespace: 'prod'
+  source:
+    path: 'charts/todolist'
+    repoURL: 'https://github.com/okteto/todolist-gitops-manifests'
+    targetRevision: HEAD
+    helm:
+      valueFiles:
+      - values-prod.yaml
+  project: 'default'
+  syncPolicy:
+    automated:
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
