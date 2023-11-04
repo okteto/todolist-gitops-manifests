@@ -1,0 +1,4 @@
+deploy:
+  commands:
+  - name: Deploy the Todolist application
+    command: helm upgrade --install todolist charts/todolist --values charts/todolist/values-dev.yaml
