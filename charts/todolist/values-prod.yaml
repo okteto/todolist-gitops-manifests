@@ -1,4 +1,8 @@
 replicaCount: 1
-serverImage: "rinkiyakedad/oktetodo-server"
-clientImage: "rinkiyakedad/oktetodo-client"
+clientImage:
+  repository: arshsharma/todolist-client
+  tag: latest
+serverImage:
+  repository: arshsharma/todolist-server
+  tag: latest
 dbImage: "postgres"

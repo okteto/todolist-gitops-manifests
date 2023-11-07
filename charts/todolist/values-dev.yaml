@@ -1,4 +1,0 @@
-replicaCount: 1
-serverImage: "rinkiyakedad/oktetodo-server"
-clientImage: "rinkiyakedad/oktetodo-client"
-dbImage: "postgres"
