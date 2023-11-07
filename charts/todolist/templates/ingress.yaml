@@ -5,7 +5,7 @@ metadata:
   annotations:
     dev.okteto.com/generate-host: "true"
 spec:
-  # ingressClassName: nginx
+  ingressClassName: nginx
   rules:
     - host:
       http:
