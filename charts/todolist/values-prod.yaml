@@ -1,8 +1,8 @@
 replicaCount: 1
 clientImage:
   repository: arshsharma/todolist-client
-  tag: 4a3e98fb84a811c31a556f05b4265c8f8397db0e
+  tag: c84e0604e7b97df7c468c69f3ceb2a97657e68a8
 serverImage:
   repository: arshsharma/todolist-server
-  tag: 4a3e98fb84a811c31a556f05b4265c8f8397db0e
+  tag: c84e0604e7b97df7c468c69f3ceb2a97657e68a8
 dbImage: "postgres"
