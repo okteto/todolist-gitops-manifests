@@ -1,8 +1,4 @@
 replicaCount: 1
-clientImage:
-  repository: arshsharma/todolist-client
-  tag: latest
-serverImage:
-  repository: arshsharma/todolist-server
-  tag: latest
+clientImage: "arshsharma/todolist-client:latest"
+serverImage: "arshsharma/todolist-server:latest"
 dbImage: "postgres"
